@@ -1,0 +1,29 @@
+{
+  "name": "webServerDemo",
+  "description": "webServerDemo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trustmore"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp dev",
+    "watch": "nodemon server.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "superagent": "^3.3.1",
+    "swig": "^1.4.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^3.8.1",
+    "underscore": "^1.8.3"
+  },
+  "license": "MIT"
+}
